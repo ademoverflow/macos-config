@@ -18,6 +18,12 @@ shift + cmd - 6 : yabai -m window --space 6;
 shift + cmd - 7 : yabai -m window --space 7;
 shift + cmd - 8 : yabai -m window --space 8;
 
+# swap windows
+shift + ctrl - j : yabai -m window --swap south
+shift + ctrl - k : yabai -m window --swap north
+shift + ctrl - h : yabai -m window --swap west
+shift + ctrl - l : yabai -m window --swap east
+
 # maximize a window
 shift + cmd - m : yabai -m window --toggle zoom-fullscreen
 
