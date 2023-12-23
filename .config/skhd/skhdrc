@@ -18,5 +18,8 @@ shift + cmd - 6 : yabai -m window --space 6;
 shift + cmd - 7 : yabai -m window --space 7;
 shift + cmd - 8 : yabai -m window --space 8;
 
-# move to space #
+# maximize a window
+shift + cmd - m : yabai -m window --toggle zoom-fullscreen
 
+# balance out tree of windows (resize to occupy same area)
+shift + cmd - e : yabai -m space --balance
