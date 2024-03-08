@@ -30,3 +30,5 @@ yabai -m config window_opacity on
 yabai -m config active_window_opacity 1.0
 yabai -m config normal_window_opacity 0.96
 
+# Force enable for specific apps
+yabai -m rule --add app="^Simulator" manage=on
