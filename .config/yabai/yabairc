@@ -25,8 +25,6 @@ setup_space 3
 setup_space 4
 setup_space 5
 setup_space 6
-setup_space 7
-setup_space 8
 
 # Global config
 yabai -m config layout bsp
