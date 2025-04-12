@@ -53,3 +53,5 @@ yabai -m config normal_window_opacity 0.96
 
 # Force enable for specific apps
 yabai -m rule --add app="^Simulator" manage=on
+yabai -m rule --add label="WhatsApp" app="WhatsApp" manage=on
+
